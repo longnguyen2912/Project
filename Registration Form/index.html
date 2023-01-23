@@ -1,28 +1,90 @@
-<!DOCTYPE html>
-<html lang="EN">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <ol>
-        <li>
-            Initialiaze the repository
-        </li>
-        <li>
-            *Start tracking files/changes
-        </li>
-        <li>
-            *Save point/commit
-        </li>
-        <li>
-            Binding/linking the local repository to our github account
-        </li>
-        <li>
-            *Updating the repository in your github account
-        </li>
-    </ol>
-</body>
+<html>
+    <head>
+        <title>
+            Registration Form
+        </title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <h1><strong>Registration Form</strong></h1>
+                <div>
+                    <label for="FirstName">
+                        First Name:*
+                    </label>
+                    <input type="text" name="FirstName" id="FirstName">
+                </div>
+                <div>
+                    <label for="Lastname">
+                        Last Name:*
+                    </label>
+                    <input type="text" name="Lastname" id="Lastname">
+                </div>
+                
+                <div>  
+                    <label for="EmailAddress">
+                    Email Address:*
+                    </label>
+                    <input type="email" name="EmailAddress" id="EmailAddress">
+                </div>
+
+                <div>
+                    <label for="Password">
+                        Password:*
+                    </label>
+                    <input type="password" name="Password" id="Password">
+                </div>
+                <div>
+                    <label for="ConfirmedPassword">
+                        Confirm Password:*
+                    </label>
+                    <input type="password" name="ConfirmedPassword" id="ConfirmedPassword">
+                </div>
+                <div>
+                    <label for="Birthday">
+                        Birthday:
+                    </label>
+                    <input type="date" name="Birthday" id="Birthday" placeholder="mm/dd/yyyy ">
+                </div>
+                <div>
+                    <p> Gender Indentity: <p>
+                    <input type="radio" name="identity" id="male" value="male">
+                    <label for="male">Male</label>                
+                    <input type="radio" name="identity" id="female" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="identity" id="nonBinary" value="nonBinary">
+                    <label for="nonBinary">Non-binary</label>
+                    <input type="radio" name="identity" id="noanswer" value="noanswer">
+                    <label for="noanswer">I prefer not to answer</label>
+                </div>
+                <div>
+                    <label for="shortdescription">
+                        <p>A short description about myself:</p>
+                    </label>
+                    <textarea name="shortdescription" id="shortdescription"></textarea>
+                </div>
+                <div>
+                    <label for="language">Favorite Language: </label>
+                    <select name="language">
+                        <option>Javascript</option>
+                        <option>C++</option>
+                        <option>Python</option>
+                        <option>Ruby</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="checkbox" name="yes"  id="yes">
+                    <label for="yes">Yes, I would like to receive periodic email updates</label>
+                </div> 
+                <div>
+                    <input type="submit" value="Create Account">
+                </div>
+                <div>*Indicates a required field</div>
+
+            </fieldset>
+        </form>
+    </body>
 </html>
