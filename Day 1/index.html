@@ -7,6 +7,7 @@
         <!-- Meta is a selfclosed element -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel= "stylesheet" href="./style.css">
     </head>
     <body>
         <nav>
@@ -33,24 +34,24 @@
                 Take me to about.html
             </a>
             <ul>
-                <li>
+                <li class="pet">
                     Cats
                 </li>
-                <li>
+                <li class="pet">
                     Dogs
                 </li>
-                <li>
+                <li class="pet">
                     Hamster
                 </li>    
            </ul>
             <ol>
-                <li>
+                <li class="pet">
                     Cats
                 </li>
-                <li>
+                <li class="pet">
                     Dogs
                 </li>
-                <li>
+                <li class="pet">
                     Hamster
                 </li>   
             </ol>
@@ -88,7 +89,7 @@
                         <td>
                             Smith
                         </td>
-                        <td>
+                        <td class ="pet" id = "number">
                             98765
                         </td>    
                     </tr>
@@ -181,7 +182,9 @@
             </form>
         </main>
         <section>
-            <img src="./images/kitten.jfif" alt="This is a picture of a cat!"></section>
+            <img id = "catImage" src="./images/kitten.jfif" alt="This is a picture of a cat!">
+        </section>
+
         <footer>
             Footer goes here. All rights reserved.
         </footer>
