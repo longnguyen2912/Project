@@ -28,6 +28,24 @@ th, td{
     border:1px solid black;
     padding:10px;
 }
+
+ul> .pet{
+    background-color: green;
+}
+
+main .pet{
+    color: blue;
+}
+
+input[type="text"]{
+    width: 400px;
+}
+
+ol>li{
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+}
 /*
     id# > class. > element
 */
